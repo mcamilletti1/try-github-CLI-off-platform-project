@@ -3,10 +3,9 @@ name = "Joe"
 question = "Will I win the lottery?"
 answer = ""
 
-random_number = random.randint(1, 9)
 # print(random_number)
 
-if random_number == 1:
+if (random_number := random.randint(1, 9)) == 1:
   answer = "Yes - definitely"
 elif random_number == 2:
   answer = "It is decidedly so"
