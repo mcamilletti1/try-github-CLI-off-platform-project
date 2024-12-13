@@ -1,9 +1,10 @@
-import random
+import secrets
+
 name = "Joe"
 question = "Will I win the lottery?"
 answer = ""
 
-random_number = random.randint(1, 9)
+random_number = secrets.SystemRandom().randint(1, 9)
 # print(random_number)
 
 if random_number == 1:
